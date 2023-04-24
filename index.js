@@ -2,14 +2,14 @@ console.log('Welcome');
 
 // Initialize the variables
 let songIndex = 0;
-let audio = new Audio('pod_list/1.mp3');
+let audio = new Audio('1.mp3');
 let gif = document.getElementById('gif');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('progressbar');
 let masterPlay1 = document.getElementsByClassName('podplay');
 
 let songs = [
-    { podName: "Work Life-Adam Grant", filePath: "pod_list/1.mp3" },
+    { podName: "Work Life-Adam Grant", filePath: "1.mp3" },
     { podName: "Inspirational speeches", filePath: "pod_list/2.mp3" },
     { podName: "Mindful Business", filePath: "pod_list/3.mp3" },
     { podName: "Ameero ki soch", filePath: "pod_list/4.mp3" },
